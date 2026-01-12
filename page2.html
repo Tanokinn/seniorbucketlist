@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+                <!--Styling for website-->
      <style>
         body {
             background-color: rgb(200, 220, 255);
@@ -9,12 +10,14 @@
         strong{color: rgb(24, 24, 134);}
         p{color: rgb(224, 148, 15);}
         </style>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="index.css">
     <title>Winter Break | Form</title>
 </head>
 <body>
+                <!--Header of Form-->
   <h1> What was your winter break like? </h1> 
   <input type="button" href="index.html" value="Previous Page" onclick="location.href='index.html'"/>
   <br>
@@ -34,6 +37,7 @@
 
     <strong> What is your favorite thing about winter? </strong>
     <br>
+                <!--Dropdown selection list-->
 <select name="Roles" id="roles">
     
     <option value="Rain">Rain</option>
@@ -50,12 +54,14 @@
          <input type="text" placeholder="I remember the most that... " size="50">
             <br>
         <br>
+                    <!-- Selection for Yes or No-->
        <strong>  Do you consent to us using this information for a chance to win free iPhone 21?</strong>
         <br>
          Yes: <input type="radio" id="yes" name="commited" value="yes">
          No: <input type="radio" id="no" name="commited" value  ="no">
             <br>
         <br>
+                    <!--Submit button for form-->
          <input type="button" value="Submit" onclick="window.location.href='results.html'">
     </form>
 <br>
